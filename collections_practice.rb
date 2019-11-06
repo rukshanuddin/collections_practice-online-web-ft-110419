@@ -36,5 +36,5 @@ end
 
 def add_s(array)
   array.map { |e| e + "s" }
-  array[1] - "s"
+  array[1] -= "s"
 end
