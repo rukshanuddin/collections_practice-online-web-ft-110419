@@ -35,6 +35,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map { |e| e + "s" }
-  array[1] -= "s"
+  new_a =[]
+  array.each { |e| new_a << e + "s" }
+  new_a[1] - "s"
 end
