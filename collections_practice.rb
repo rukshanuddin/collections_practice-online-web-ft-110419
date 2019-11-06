@@ -27,5 +27,9 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.filter {|e| e if e[0]== "a" } #.reject {|e| e.nil?}
+  array.filter {|e| e if e[0]== "a" }
+end
+
+def sum_array(array)
+  array.sum
 end
