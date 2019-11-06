@@ -27,5 +27,6 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.map {|e| if e[0]== "a"; else end}
+
+  array.map {|e| e if e[0]== "a" }.reject {|e| e.nil?}
 end
