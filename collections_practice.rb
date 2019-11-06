@@ -37,5 +37,6 @@ end
 def add_s(array)
   new_a =[]
   array.each { |e| new_a << e + "s" }
+  new_a[1].delete_at(-1)
   new_a
 end
